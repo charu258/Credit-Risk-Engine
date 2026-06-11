@@ -27,9 +27,14 @@ The architecture achieves high operational efficiency on highly imbalanced data 
 | **False Positive Disruption Rate**| **2.08%** | Only 120 / 5,757 Legitimate Transactions Flagged |
 
 ### 📊 Validation Confusion Matrix
-,Predicted Clean,Predicted Fraud
-Actual Clean,"5,637 (True Negatives)",120 (False Positives)
-Actual Fraud,42 (False Negatives),117 (Successfully Caught)
+
+| | Predicted Clean | Predicted Fraud |
+| :--- | :---: | :---: |
+| **Actual Clean** | 5,637 (True Negatives) | 120 (False Positives) |
+| **Actual Fraud** | 42 (False Negatives) | 117 (Successfully Caught) |
+
+* **Total Clean Transactions:** 5,757
+* **Total Fraudulent Transactions:** 159
 
 ## 🔬 Mathematical & Adversarial Engineering Deep Dive
 

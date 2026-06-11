@@ -30,7 +30,7 @@ The architecture achieves high operational efficiency on highly imbalanced data 
 
 | | Predicted Clean | Predicted Fraud |
 | :--- | :---: | :---: |
-| **Actual Clean** | 5,637 (True Negatives) | 120 (False Positives) |
+| **Actual Clean** | 5,637 (True Positives) | 120 (False Positives) |
 | **Actual Fraud** | 42 (False Negatives) | 117 (Successfully Caught) |
 
 * **Total Clean Transactions:** 5,757

@@ -4,7 +4,7 @@ An enterprise-grade, unsupervised risk simulation and anomaly detection pipeline
 
 ---
 
-## 🛠️ System Architecture
+##  System Architecture
 
 The repository is modularly structured into three distinct pipeline layers:
 1. **Data Synthesis (`src/generator.py`):** Models human circadian rhythms using a Bimodal Gaussian Mixture Model to prevent simple uniform distributions from trivializing temporal dependencies.
@@ -13,7 +13,7 @@ The repository is modularly structured into three distinct pipeline layers:
 
 ---
 
-## 📈 Pipeline Performance Metrics
+##  Pipeline Performance Metrics
 
 The architecture achieves high operational efficiency on highly imbalanced data profiles, establishing an optimal balance between maximum threat containment and minimal customer friction:
 
@@ -26,7 +26,7 @@ The architecture achieves high operational efficiency on highly imbalanced data 
 | **Precision Score** | **49.37%** | Industry-Standard Fraud Alert Sweet Spot |
 | **False Positive Disruption Rate**| **2.08%** | Only 120 / 5,757 Legitimate Transactions Flagged |
 
-### 📊 Validation Confusion Matrix
+###  Validation Confusion Matrix
 
 | | Predicted Clean | Predicted Fraud |
 | :--- | :---: | :---: |
@@ -36,7 +36,7 @@ The architecture achieves high operational efficiency on highly imbalanced data 
 * **Total Clean Transactions:** 5,757
 * **Total Fraudulent Transactions:** 159
 
-## 🔬 Mathematical & Adversarial Engineering Deep Dive
+##  Mathematical & Adversarial Engineering Deep Dive
 
 ### 1. Circumventing Threshold Overfitting (Adaptive Spikes)
 Instead of injecting easily detectable static outlier amounts, spending spikes are regularized stochastically using continuous uniform rational scaling factors relative to individual historical customer standard deviations:
@@ -58,7 +58,7 @@ The engine simulates multi-step probing behavior by hijacking consecutive rows i
 
 ---
 
-## 🚀 Execution Guide
+##  Execution Guide
 
 ### Prerequisites
 Ensure your Python runtime environment has the required core scientific dependencies compiled:
